@@ -1,0 +1,11 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+logging:
+  level:
+    root: INFO
+    it.develhope.Services.Logging2.services: DEBUG
+envVar:
+  n1: 5
+  n2: 6
